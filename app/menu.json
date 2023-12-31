@@ -1,0 +1,29 @@
+[
+    {
+        "type": "submenu",
+        "text": "Pagila",
+        "children": [
+            {
+                "type": "link",
+                "text": "Rentals List",
+                "url_for": "pages_bp.rentals"
+            },
+            {
+                "type": "link",
+                "text": "Payments List",
+                "url_for": "pages_bp.payments"
+            }
+        ]
+    },
+    {
+        "type": "submenu",
+        "text": "Test",
+        "children": [
+            {
+                "type": "link",
+                "text": "Dummy",
+                "url_for": "pages_bp.dummy"
+            }
+        ]
+    }
+]
